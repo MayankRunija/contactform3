@@ -6,12 +6,12 @@
         $msg=$_POST['msg']; 
        $phone=$_POST['phone']; 
        $FromName="Techno Smarter";
-$FromEmail="info@mayankrunija.github.io";
+$FromEmail="mickeyruni18@gmail.com";
 $ReplyTo=$email;
 $toemail="mickeyruni18@gmail.com";
 $subject="Contact form"; 
 $message='Name:-'.$name.'<br>Email :-' .$email.'<br> Phone No:-'.$phone.'<br> Message:-'.$msg;
-$headers ?= "MIME-Version: 1.0n";
+$headers .= "MIME-Version: 1.0n";
 $headers .= "Content-type: text/html; charset=iso-8859-1n";
 $headers .= "From: ".$FromName." <".$FromEmail.">n";
 $headers .= "Reply-To: ".$ReplyTo."n";
